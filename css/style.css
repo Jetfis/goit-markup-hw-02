@@ -20,7 +20,10 @@ body {
   line-height: 1.17;
   color: #2e2f42;
 }
-
+.header_logo2:is(:hover, :focus) {
+  color: #4d5ae5;
+  text-decoration: underline #4d5ae5;
+}
 .header_list {
   font-style: normal;
   font-weight: 500;
@@ -31,44 +34,28 @@ body {
   color: #2e2f42;
 }
 
-.header_item1 {
+.header_link {
   width: 48px;
   height: 24px;
 }
-.header_item2 {
-  width: 66px;
-  height: 24px;
-}
-.header_item3 {
-  width: 67px;
-  height: 24px;
+.header_link:is(:hover, :focus) {
+  color: #404bbf;
+  text-decoration: underline #404bbf;
 }
 .header_mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
   color: #434455;
+}
+.header_mail:is(:hover, :focus) {
+  color: #404bbf;
 }
 .list {
   list-style: none;
   text-decoration: none;
 }
 .header_phone {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -78,6 +65,9 @@ body {
   /* SLATE */
 
   color: #434455;
+}
+.header_phone:is(:hover, :focus) {
+  color: #404bbf;
 }
 /*------------------HEROSECTION------------------*/
 .hero_section {
@@ -108,6 +98,9 @@ body {
   /* WHITE */
 
   color: #ffffff;
+}
+.hero_btn:is(:hover, :focus) {
+  background-color: #404bbf;
 }
 .section_2_tytle {
   font-weight: 500;
@@ -173,4 +166,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.portfolio_btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+}
+.portfolio_btn:is(:hover, :focus) {
+  background: #404bbf;
+  color: #ffffff;
+}
+.portfolio_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio_desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
