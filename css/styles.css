@@ -3,7 +3,7 @@
   color: #434455;
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -51,6 +51,7 @@ body {
 .header_link {
   width: 48px;
   height: 24px;
+  color: #2e2f42;
 }
 .header_link:is(:hover, :focus) {
   color: #404bbf;
@@ -68,6 +69,12 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.adress {
+  font-style: normal;
 }
 .header_phone {
   font-size: 16px;
@@ -91,13 +98,16 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   /* or 107% */
   color: #ffffff;
 }
 .hero_btn {
+  cursor: pointer;
   background: #4d5ae5;
   /* Button Text */
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -129,27 +139,40 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section_3_tytle {
+.section_three_tytle {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
 }
-.section_4_tytle {
+.section-4 {
+  background-color: #f4f4fd;
+}
+.section-4-list {
+  background-color: #ffffff;
+}
+.section_four_tytle {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section_4_name {
+.section_four_name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section_4_proffession {
+.section_four_proffession {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .footer {
@@ -165,7 +188,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer_logo2 {
+.footer_logo_two {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -176,6 +200,7 @@ body {
   color: #f4f4fd;
 }
 .footer_text {
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
