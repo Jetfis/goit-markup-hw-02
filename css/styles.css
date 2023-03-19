@@ -1,5 +1,11 @@
+:root {
+  background-color: #ffffff;
+  color: #434455;
+}
 body {
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .header {
   background-color: #ffffff;
@@ -9,15 +15,23 @@ body {
 }
 
 .header_logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .header_logo2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .header_logo2:is(:hover, :focus) {
