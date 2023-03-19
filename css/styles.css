@@ -207,10 +207,14 @@ body {
   color: #f4f4fd;
 }
 .portfolio_btn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 .portfolio_btn:is(:hover, :focus) {
   background: #404bbf;
