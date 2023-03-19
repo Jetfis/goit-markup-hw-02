@@ -24,7 +24,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header_logo2 {
+.header_logo_two {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -34,7 +34,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.header_logo2:is(:hover, :focus) {
+.header_logo_two:is(:hover, :focus) {
   color: #4d5ae5;
   text-decoration: underline #4d5ae5;
 }
