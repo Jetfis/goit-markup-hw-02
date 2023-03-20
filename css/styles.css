@@ -153,6 +153,9 @@ body {
 .section-four-list {
   background-color: #ffffff;
 }
+.section-four-link link {
+  background-color: #ffffff;
+}
 .section_four_tytle {
   text-align: center;
   text-transform: capitalize;
