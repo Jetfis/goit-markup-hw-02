@@ -1,4 +1,7 @@
 :root {
+  --button-color: #ffffff;
+  --button-background: #4d5ae5;
+  --button-background-hover: #404bbf;
   background-color: #ffffff;
   color: #434455;
 }
@@ -55,7 +58,6 @@ body {
 }
 .header_link:is(:hover, :focus) {
   color: #404bbf;
-  text-decoration: underline #404bbf;
 }
 .header_mail {
   font-size: 16px;
@@ -105,7 +107,7 @@ body {
 }
 .hero_btn {
   cursor: pointer;
-  background: #4d5ae5;
+  background: var(--button-background);
   /* Button Text */
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -121,10 +123,10 @@ body {
   flex-grow: 0;
   /* WHITE */
 
-  color: #ffffff;
+  color: var(--button-color);
 }
 .hero_btn:is(:hover, :focus) {
-  background-color: #404bbf;
+  background-color: var(--button-background-hover);
 }
 .section_two_tytle {
   font-weight: 500;
@@ -204,7 +206,8 @@ body {
   color: #f4f4fd;
 }
 .footer_text {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
